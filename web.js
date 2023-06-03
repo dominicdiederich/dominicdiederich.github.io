@@ -1,4 +1,9 @@
-function openTab(evt, cityName) {
+window.addEventListener("DOMContentLoaded", function() {
+    // Open the "Home" tab by default
+    openTab(null, "Home");
+  });
+  
+  function openTab(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
   
@@ -18,3 +23,4 @@ function openTab(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+  

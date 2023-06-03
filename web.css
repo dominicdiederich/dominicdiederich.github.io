@@ -1,9 +1,10 @@
-body{
+body {
     font-family: 'Geologica', sans-serif;
-}
-
-/* Style the tab */
-.tab {
+  }
+  
+  /* Style the tab */
+  .tab {
+    text-align: right;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
@@ -12,7 +13,7 @@ body{
   /* Style the buttons that are used to open the tab content */
   .tab button {
     background-color: inherit;
-    float: left;
+    float: right; /* Align buttons to the right */
     border: none;
     outline: none;
     cursor: pointer;
@@ -34,6 +35,6 @@ body{
   .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-top: none;
   }
