@@ -1,0 +1,41 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+body {
+    /* font-family: 'Minecraft', sans-serif; */
+    /* font-family: 'Silkscreen'; */
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.welcome {
+    color: rgb(195, 166, 34);
+}
+
+h2 {
+    color: #2c2828;
+    font-weight: bold;
+}
+
+.info {
+    color: rgb(22, 22, 23);
+}
+
+.column {
+    float: left;
+    text-align: center;
+    padding: 70px 0;
+    width: 50%;
+}
+
+#exp {
+    text-align: left;
+    padding: 0 50px;
+    font-weight: bold;
+}
+
+ul {
+    text-align: left;
+    padding: 0 75px;
+}
+#more {display: none;}
+#more2 {display: none;}
