@@ -1,1 +1,1 @@
-Hi, My name is Dominic Diederich
+Hi, My name is Dominic Diederich.
