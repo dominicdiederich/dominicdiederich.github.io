@@ -246,12 +246,23 @@ body.light-mode .education-logo {
 }
 
 /* Projects page card */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+  align-items: stretch;
+}
+
+.projects-page {
+  max-width: 1200px;
+}
+
 .project-card {
   background-color: rgba(30, 41, 59, 0.8);
   border-radius: 15px;
   padding: 40px 30px;
-  max-width: 700px;
-  margin: 0 auto 50px;
+  max-width: 100%;
+  margin: 0;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -294,5 +305,12 @@ body.light-mode .project-logo {
 
   .headshot {
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 }
